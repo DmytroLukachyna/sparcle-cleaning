@@ -1,0 +1,57 @@
+.hire {
+    min-height: 800px;
+    padding: 100px 0;
+    background: url("../img/hand.png") no-repeat 50%/cover, rgb(246, 247, 251);
+    &__img {
+        max-width: 600px;
+        border-radius: 10px;
+    }
+    &__descr {
+        max-width: 600px;
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgb(103, 111, 146);
+    }
+    &__list {
+        font-size: 16px;
+        line-height: 35px;
+        font-weight: 400;
+        color: var(--title-color);
+        list-style-type: none;
+        padding-left: 30px;
+        li {
+            position: relative;
+            &:before {
+                position: absolute;
+                left: -30px;
+                content: '\f00c';
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                color: var(--main-color);
+                width: 15px;
+                height: 11px;
+            }
+        }
+    }
+}
+
+.promo-title {
+    max-width: 600px;
+    margin-top: 70px;
+    font-size: 17px;
+    line-height: 14px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.main-title {
+    max-width: 600px;
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    color: var(--title-color);
+}
