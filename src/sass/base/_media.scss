@@ -1,0 +1,267 @@
+@media (max-width: 1399px) {
+    .container {
+        padding: 0 30px;
+    }
+    .services {
+        padding: 70px 0 100px;
+    }
+    .services__wrapper {
+        flex-wrap: wrap;
+    }
+    .services__item {
+        margin: 30px 10px 0;
+    }
+    .promo__dots {
+        left: -54px;
+        bottom: -48px;
+    }
+    .footer__wrapper {
+        flex-wrap: wrap;
+    }
+    .map {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1199px) {
+    .menu {
+        margin: 0 10px;
+    }
+    .menu__link {
+        padding: 10px;
+    }
+    .promo__dots {
+        left: -42px;
+        bottom: -36px;
+    }
+    .booking__text {
+        margin: 0 30px;
+        .promo-title {
+            margin: 0;
+        }
+    }
+    .booking__form {
+        margin: 30px auto 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        justify-content: center;
+        .btn_order {
+            display: none;
+        }
+    }
+    .mainscreen__title span:after {
+        width: 275px;
+    }
+    .mainscreen__link {
+        justify-content: flex-start;
+    }
+    .mainscreen__line {
+        width: 300px;
+    }
+    .promo {
+        padding: 60px 0;
+    }
+    .promo__title {
+        line-height: 30px;
+    }
+    .promo__text {
+        margin-top: 30px;
+    }
+    .promo__dots {
+        display: none;
+    }
+    .hire {
+        padding: 60px 0;
+    }
+    .booking {
+        padding: 60px 0;
+    }
+    .feedback {
+        padding: 60px 0;
+    }
+    .contact__btn-wrapper {
+        max-width: 75%;
+    }
+    .footer {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainscreen__title-wrapper {
+        margin-top: 150px;
+    }
+    .mainscreen__title {
+        font-size: 57px;
+    }
+    .mainscreen__title span:after {
+        width: 240px;
+        bottom: -10px;
+    }
+    .promo__wrapper {
+        flex-wrap: wrap;
+    }
+    .promo__descr {
+        max-width: 100%;
+    }
+    .promo__img {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .hire__img {
+        max-width: 100%;
+    }
+    .btn_contact {
+        margin: 0;
+    }
+    .feedback {
+        padding: 50px 0;
+    }
+    .contact__btn-wrapper {
+        max-width: 100%;
+    }
+    .footer__wrapper {
+        justify-content: space-around;
+    }
+    .footer__promo,
+    .footer__contact {
+        margin: 20px 10px;
+    }
+    .footer__house,
+    .footer__commercial {
+        display: none;
+    }
+    .map {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .mainscreen__link {
+        margin-top: 10px;
+    }
+    .mainscreen__line {
+        width: 150px;
+    }
+}
+
+@media (max-width: 499px) {
+    .container {
+        padding: 0 20px;
+    }
+    .btn {
+        width: 160px;
+    }
+    .mainscreen__title-wrapper {
+        margin-top: 90px;
+    }
+    .mainscreen__link {
+        display: none;
+    }
+    .services__item {
+        max-width: 100%;
+    }
+    .booking__form {
+        max-width: 360px;
+        padding: 20px 15px;
+    }
+    .select_date input {
+        width: 53%;
+    }
+    .select_type label {
+        margin-left: 20px;
+    }
+    .select_room select {
+        width: 100%;
+    }
+    .select_services {
+        text-align: center;
+    }
+    .select_services label {
+        margin: 5px 20px;
+    }
+    .btn_submit {
+        width: 150px;
+    }
+    .hire__wrapper {
+        flex-wrap: wrap;
+    }
+    .feedback__title {
+        text-align: center;
+    }
+    .footer {
+        padding-top: 10px;
+    }
+    .footer__promo {
+        max-width: 215px;
+    }
+}
+
+@media (max-width: 414px) {
+    .mainscreen__title {
+        font-size: 50px;
+    }
+    .mainscreen__title span:after {
+        width: 210px;
+        height: 30px;
+        bottom: -5px;
+    }
+    .booking__text {
+        margin: 0;
+    }
+    .booking__form {
+        max-width: 340px;
+        margin: 30px 0 0;
+    }
+}
+
+@media (max-width: 389px) {
+    .booking__form {
+        max-width: 330px;
+    }
+    .select_date input {
+        width: 51%;
+    }
+}
+
+@media (max-width: 374px) {
+    .booking__form {
+        max-width: 325px;
+        padding: 20px 10px;
+    }
+    .contact__btn-wrapper {
+        flex-wrap: wrap;
+        .btn {
+            margin: 10px;
+        }
+    }
+    .btn_submit {
+        width: 140px;
+    }
+    .footer__wrapper {
+        padding: 50px 0 0;
+    }
+}
+
+@media (max-width: 359px) {
+    .mainscreen__title {
+        font-size: 42px;
+    }
+    .mainscreen__title span:after {
+        width: 170px;
+        height: 20px;
+        bottom: 0;
+    }
+    .booking__form {
+        max-width: 280px;
+    }
+    .select_date input {
+        width: 100%;
+    }
+    .select_type {
+        text-align: center;
+    }
+}
