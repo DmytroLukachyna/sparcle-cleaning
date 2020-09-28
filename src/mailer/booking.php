@@ -39,7 +39,7 @@ $mail->Body    = '
 	Количество ванных: ' . $bathroomamount . ' <br>
 	Нужна ли переработка: ' . $recyclingtick . '<br>
 	Нужна ли утилизация: ' . $disposaltick . '<br>
-	Нужна ли утилизация: ' . $installtick . '<br>
+	Нужна ли установка: ' . $installtick . '<br>
 	Есть ли подтверждение ПД: ' . $consenttick . '';
 if(!$mail->send()) {
     return false;
