@@ -18,7 +18,7 @@
         max-width: 500px;
         padding: 25px;
         background: var(--main-color);
-        color: white;
+        color: rgb(255, 255, 255);
         border-radius: 20px;
     }
     &__select {
@@ -91,6 +91,13 @@
         }
         label {
             margin-left: 14px;
+        }
+    }
+    &_consent {
+        text-align: center;
+        margin-top: 15px;
+        a {
+            color: inherit;
         }
     }
 }

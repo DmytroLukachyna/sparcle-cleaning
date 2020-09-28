@@ -1,18 +1,4 @@
 $(document).ready(function() {
-    /* $(window).scroll(function() {
-        if ($(this).scrollTop() > 900) {
-            $('.pageup').fadeIn();
-        } else {
-            $('.pageup').fadeOut();
-        }
-    });
-
-    $("a[href=#top]").click(function() {
-        const _href = $(this).attr("href");
-        $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
-        return false;
-    }); */
-
     $('.carousel-feedback').slick({
         infinite: true,
         slidesToShow: 3,
@@ -37,22 +23,16 @@ $(document).ready(function() {
             }
         ]
     });
-
-
-
-
     $(".hamburger").click(function() {
         $(".hamburger").toggleClass("hamburger_active");
         $(".menu").toggleClass("menu_active");
         $("body").toggleClass("lock-scroll");
     });
-
     $(".menu__item").click(function() {
         $(".hamburger").toggleClass("hamburger_active");
         $(".menu").toggleClass("menu_active");
         $("body").toggleClass("lock-scroll");
     });
-
     $('.booking__form').submit(function(e) {
         e.preventDefault();
         $.ajax({

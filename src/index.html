@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <main class="mainscreen">
+    <main class="mainscreen" id="top">
         <div class="container">
             <header class="header">
                 <a class="header__logo" href="#">Sparcle</a>
@@ -82,25 +82,25 @@
         <div class="container">
             <div class="services__wrapper">
                 <div class="services__item">
-                    <img src="img/icons/services/house.svg" alt="" class="services__img">
+                    <img src="img/icons/services/house.svg" alt="House" class="services__img">
                     <h3 class="services__text">House cleaning</h3>
                     <div class="services__descr">Sparcle provides a professional house cleaning service dedicated to making the lives of our clients safer, greener and cleaner.</div>
                     <div class="services__link"><a class="services__action" href="#booking">Book online now</a></div>
                 </div>
                 <div class="services__item">
-                    <img src="img/icons/services/recycling.svg" alt="" class="services__img">
+                    <img src="img/icons/services/recycling.svg" alt="Recycling" class="services__img">
                     <h3 class="services__text">Recycling</h3>
                     <div class="services__descr">Sparcle provides a professional office cleaning service dedicated to making the lives of our clients safer, greener and cleaner.</div>
                     <div class="services__link"><a class="services__action" href="#booking">Get a quote</a></div>
                 </div>
                 <div class="services__item">
-                    <img src="img/icons/services/disposal.svg" alt="" class="services__img">
+                    <img src="img/icons/services/disposal.svg" alt="Disposal" class="services__img">
                     <h3 class="services__text">Garbage disposal</h3>
                     <div class="services__descr">Sparcle provides a professional office cleaning service dedicated to making the lives of our clients safer, greener and cleaner.</div>
                     <div class="services__link"><a class="services__action" href="#booking">Get a quote</a></div>
                 </div>
                 <div class="services__item">
-                    <img src="img/icons/services/commercial.svg" alt="" class="services__img">
+                    <img src="img/icons/services/commercial.svg" alt="Commercial" class="services__img">
                     <h3 class="services__text">Office cleaning</h3>
                     <div class="services__descr">Sparcle provides a professional office cleaning service dedicated to making the lives of our clients safer, greener and cleaner.</div>
                     <div class="services__link"><a class="services__action" href="#booking">Get a quote</a></div>
@@ -119,7 +119,7 @@
                         <p>When you choose <span class="span-bold">Sparcle</span>, you know you will be coming home with the peace of mind that only all natural cleaning products were used, making your home safe for your family, your pets and the planet.</p>
                     </div>
                 </div>
-                <div class="promo__img"><img class="promo__photo" src="img/promo.jpg" alt=""><img class="promo__dots" src="img/dots.png" alt=""></div>
+                <div class="promo__img"><img class="promo__photo" src="img/promo.jpg" alt="Promo"><img class="promo__dots" src="img/dots.png" alt="Dots"></div>
             </div>
         </div>
     </section>
@@ -173,7 +173,7 @@
                                 <input required type="email" name="customer_mail" placeholder="Your e-mail address">
                             </li>
                             <li class="select_type">
-                                <p>Type of cleaning</p>
+                                <p>Type of cleaning (all fields below are mandatory):</p>
                                 <input type="radio" id="residential" name="customer_type" value="Residential">
                                 <label for="residential">Residential</label>
                                 <input type="radio" id="commercial" name="customer_type" value="Commercial">
@@ -205,6 +205,10 @@
                                 <label for="disposal">Disposal</label>
                                 <input type="checkbox" id="install" name="customer_install" value="Yes">
                                 <label for="install">Installing</label>
+                            </li>
+                            <li class="select_consent">
+                                <input type="checkbox" required id="consent" name="customer_consent" value="Yes">
+                                <label for="consent">I have read and agree to the <a href="javascript:void(0);">privacy policy</a></label>
                             </li>
                         </ul>
                         <div class="booking__btns">
@@ -291,10 +295,10 @@
                         House
                     </div>
                     <ul class="cleaning">
-                        <li class="cleaning__item"><a href="#" class="cleaning__link">Process</a></li>
-                        <li class="cleaning__item"><a href="#" class="cleaning__link">Works</a></li>
-                        <li class="cleaning__item"><a href="#" class="cleaning__link">Services</a></li>
-                        <li class="cleaning__item"><a href="#" class="cleaning__link">Team</a></li>
+                        <li class="cleaning__item"><a href="javascript:void(0);" class="cleaning__link">Process</a></li>
+                        <li class="cleaning__item"><a href="javascript:void(0);" class="cleaning__link">Works</a></li>
+                        <li class="cleaning__item"><a href="javascript:void(0);" class="cleaning__link">Services</a></li>
+                        <li class="cleaning__item"><a href="javascript:void(0);" class="cleaning__link">Team</a></li>
                     </ul>
                 </div>
                 <div class="footer__commercial">
@@ -302,10 +306,10 @@
                         Commercial
                     </div>
                     <ul class="cleaning">
-                        <li class="cleaning__item"><a href="#" class="cleaning__link">Process</a></li>
-                        <li class="cleaning__item"><a href="#" class="cleaning__link">Works</a></li>
-                        <li class="cleaning__item"><a href="#" class="cleaning__link">Services</a></li>
-                        <li class="cleaning__item"><a href="#" class="cleaning__link">Team</a></li>
+                        <li class="cleaning__item"><a href="javascript:void(0);" class="cleaning__link">Process</a></li>
+                        <li class="cleaning__item"><a href="javascript:void(0);" class="cleaning__link">Works</a></li>
+                        <li class="cleaning__item"><a href="javascript:void(0);" class="cleaning__link">Services</a></li>
+                        <li class="cleaning__item"><a href="javascript:void(0);" class="cleaning__link">Team</a></li>
                     </ul>
                 </div>
                 <div class="footer__contact">
@@ -329,7 +333,6 @@
             <div class="footer__copyright">© 2019 - 2020 Sparcle. Team d.o.o. | All Rights Reserved</div>
         </div>
     </footer>
-
     <div class="thanks">
         <div class="thanks__overlay"></div>
         <div class="thanks__message">
@@ -338,7 +341,6 @@
             <p>We will contact you as soon as possible!</p>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
