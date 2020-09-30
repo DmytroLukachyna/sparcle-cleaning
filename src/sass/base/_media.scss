@@ -169,7 +169,7 @@
         padding: 20px 15px;
     }
     .select_date input {
-        width: 53%;
+        width: 56%;
     }
     .select_type label {
         margin-left: 20px;
@@ -215,6 +215,9 @@
     .booking__form {
         max-width: 340px;
         margin: 30px 0 0;
+    }
+    .select_date input {
+        width: 53%;
     }
 }
 
@@ -263,5 +266,27 @@
     }
     .select_type {
         text-align: center;
+    }
+}
+
+@media (max-width: 319px) {
+    .site-wrapper {
+        display: none;
+    }
+    .warning {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        &__text {
+            margin: 0 10px;
+            p {
+                display: block;
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
     }
 }
