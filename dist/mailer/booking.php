@@ -23,12 +23,12 @@ $mail->Username = 'lolkekcheburek1905@ukr.net';
 $mail->Password = 'passdeletedandrevoked';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
-$mail->setFrom('lolkekcheburek1905@ukr.net', 'Sparcle Cleaning');
-$mail->addAddress('guidecco@ukr.net');
+$mail->setFrom('email@addre.ss', 'Sparcle Cleaning');
+$mail->addAddress('email@addre.ss');
 $mail->isHTML(true);
 $mail->Subject = 'Письмо c Sparcle Cleaning';
 $mail->Body    = '
-	Пользователь тестового сайта <b>Sparcle Cleaning</b> оставил данные!<br><br>
+	Пользователь сайта <b>Sparcle Cleaning</b> оставил данные!<br><br>
 	Желаемая дата: ' . $cleaningdate . ' <br>
 	Имя: ' . $name . ' <br>
 	Адрес: ' . $address . '<br>

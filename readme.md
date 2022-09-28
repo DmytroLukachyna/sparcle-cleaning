@@ -1,1 +1,1 @@
-https://dmytrolukachyna.github.io/projects/sparcle/
+https://dmytrolukachyna.pp.ua/projects/pet/sparcle/

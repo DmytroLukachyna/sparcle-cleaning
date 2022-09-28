@@ -1,132 +1,132 @@
 .footer {
-    padding-top: 80px;
-    &__top {
-        font-size: 25px;
-        line-height: 24px;
-        font-weight: 700;
-        color: var(--main-color);
-        &_logo {
-            font-size: 30px;
-            color: var(--main-color);
+  padding-top: 80px;
+  &__top {
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--main-color);
+    &_logo {
+      font-size: 30px;
+      color: var(--main-color);
+    }
+  }
+  &__promo {
+    max-width: 170px;
+    margin: 0 10px;
+  }
+  &__house {
+    margin: 0 10px;
+  }
+  &__commercial {
+    margin: 0 10px;
+  }
+  &__contact {
+    margin: 0 10px;
+  }
+  &__motto {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(103, 111, 146);
+  }
+  &__social {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    .social {
+      width: 40px;
+      height: 40px;
+      background: var(--main-color);
+      border-radius: 50%;
+      transition: all 0.25s ease-in-out;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      i {
+        color: rgb(251, 251, 251);
+        transition: all 0.25s ease-in-out;
+      }
+      &:hover {
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+        i {
+          color: rgb(251, 251, 251);
         }
-    }
-    &__promo {
-        max-width: 170px;
-        margin: 0 10px;
-    }
-    &__house {
-        margin: 0 10px;
-    }
-    &__commercial {
-        margin: 0 10px;
-    }
-    &__contact {
-        margin: 0 10px;
-    }
-    &__motto {
-        margin-top: 10px;
-        font-size: 14px;
-        line-height: 25px;
-        color: rgb(103, 111, 146);
-    }
-    &__social {
-        margin-top: 10px;
-        display: flex;
-        justify-content: space-between;
-        .social {
-            width: 40px;
-            height: 40px;
-            background: var(--main-color);
-            border-radius: 50%;
-            transition: all 0.25s ease-in-out;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 20px;
-            i {
-                color: rgb(251, 251, 251);
-                transition: all 0.25s ease-in-out;
-            }
-            &:hover {
-                box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
-                i {
-                    color: rgb(251, 251, 251);
-                }
-            }
-            &:active {
-                transform: scale(.9);
-            }
-            &_facebook {
-                &:hover {
-                    background: rgb(66, 103, 178);
-                }
-            }
-            &_twitter {
-                &:hover {
-                    background: rgb(29, 161, 242);
-                }
-            }
-            &_linkedin {
-                &:hover {
-                    background: rgb(40, 103, 178);
-                }
-            }
+      }
+      &:active {
+        transform: scale(0.9);
+      }
+      &_facebook {
+        &:hover {
+          background: rgb(66, 103, 178);
         }
-    }
-    &__hours {
-        margin-top: 25px;
-        font-size: 14px;
-        line-height: 25px;
-        color: rgb(103, 111, 146);
-    }
-    &__address {
-        font-style: normal;
-        font-size: 14px;
-        line-height: 25px;
-        color: rgb(103, 111, 146);
-    }
-    &__phone,
-    &__mail {
-        font-size: 14px;
-        line-height: 25px;
-        font-weight: 700;
-        a {
-            text-decoration: none;
-            color: rgb(103, 111, 146);
-            transition: all .25s ease-in-out;
-            &:hover {
-                color: var(--secondary-color);
-            }
+      }
+      &_twitter {
+        &:hover {
+          background: rgb(29, 161, 242);
         }
+      }
+      &_linkedin {
+        &:hover {
+          background: rgb(40, 103, 178);
+        }
+      }
     }
-    &__copyright {
-        padding: 20px 0;
-        text-align: center;
-        color: rgb(103, 111, 146);
+  }
+  &__hours {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(103, 111, 146);
+  }
+  &__address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(103, 111, 146);
+  }
+  &__phone,
+  &__mail {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    a {
+      text-decoration: none;
+      color: rgb(103, 111, 146);
+      transition: all 0.25s ease-in-out;
+      &:hover {
+        color: var(--secondary-color);
+      }
     }
+  }
+  &__copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(103, 111, 146);
+  }
 }
 
 .cleaning {
-    list-style-type: none;
-    margin-top: 25px;
-    &__link {
-        text-decoration: none;
-        font-size: 14px;
-        line-height: 25px;
-        color: rgb(103, 111, 146);
-        transition: all .25s ease-in-out;
-        &:hover {
-            color: var(--secondary-color);
-        }
+  list-style-type: none;
+  margin-top: 25px;
+  &__link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(103, 111, 146);
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      color: var(--secondary-color);
     }
+  }
 }
 
 .map {
-    filter: grayscale(1);
-    iframe {
-        width: 300px;
-        height: 180px;
-        border: none;
-    }
+  filter: grayscale(1);
+  iframe {
+    width: 300px;
+    height: 180px;
+    border: none;
+  }
 }

@@ -1,53 +1,53 @@
 .services {
-    background: rgb(246, 247, 251);
-    padding: 100px 0;
-    &__item {
-        max-width: 45%;
-        margin: 0 5px;
-        background-color: rgb(255, 255, 255);
-        border-radius: 10px;
-        padding: 25px;
-        color: var(--title-color);
-        transition: all .25s ease-in-out;
-        &:hover {
-            background: var(--main-color);
-            color: rgb(255, 255, 255);
-            transform: scale(1.1);
-            .services__img {
-                filter: none;
-            }
-            .services__text {
-                color: rgb(255, 255, 255);
-            }
-            .services__action {
-                color: rgb(255, 255, 255);
-            }
-        }
+  background: rgb(246, 247, 251);
+  padding: 100px 0;
+  &__item {
+    max-width: 45%;
+    margin: 0 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 25px;
+    color: var(--title-color);
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      background: var(--main-color);
+      color: rgb(255, 255, 255);
+      transform: scale(1.1);
+      .services__img {
+        filter: none;
+      }
+      .services__text {
+        color: rgb(255, 255, 255);
+      }
+      .services__action {
+        color: rgb(255, 255, 255);
+      }
     }
-    &__img {
-        width: 25%;
-        filter: grayscale(1);
-        transition: inherit;
-        margin: 0 auto;
-    }
-    &__text {
-        margin-top: 10px;
-        font-size: 24px;
-        color: var(--title-color);
-        font-weight: 700;
-    }
-    &__descr {
-        margin-top: 10px;
-        font-size: 14px;
-    }
-    &__link {
-        margin-top: 10px;
-        font-size: 13px;
-        letter-spacing: -0.02em;
-        transition: inherit;
-    }
-    &__action {
-        color: var(--secondary-color);
-        transition: inherit;
-    }
+  }
+  &__img {
+    width: 25%;
+    filter: grayscale(1);
+    transition: inherit;
+    margin: 0 auto;
+  }
+  &__text {
+    margin-top: 10px;
+    font-size: 24px;
+    color: var(--title-color);
+    font-weight: 700;
+  }
+  &__descr {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  &__link {
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    transition: inherit;
+  }
+  &__action {
+    color: var(--secondary-color);
+    transition: inherit;
+  }
 }
