@@ -1,3 +1,7 @@
+import $ from './jquery-global.js';
+import 'slick-carousel';
+import '@fancyapps/fancybox';
+
 $(document).ready(function () {
   $('.carousel-feedback').slick({
     infinite: true,
@@ -36,20 +40,11 @@ $(document).ready(function () {
   });
   $('.booking__form').submit(function (e) {
     e.preventDefault();
-    $.ajax({
-      type: 'POST',
-      url: 'mailer/booking.php',
-      data: $(this).serialize(),
-    }).done(function () {
-      $(this).find('input').val('');
-      $(this).find('select').val('');
-      $(this).find('option').val('');
-      $('.booking__form').trigger('reset');
-      $('.thanks').fadeIn('slow');
-      setTimeout(function () {
-        $('.thanks').fadeOut('slow');
-      }, 2500);
-    });
+    $('.booking__form').trigger('reset');
+    $('.thanks').fadeIn('slow');
+    setTimeout(function () {
+      $('.thanks').fadeOut('slow');
+    }, 2500);
     return false;
   });
   $(window).scroll(function () {
@@ -59,7 +54,7 @@ $(document).ready(function () {
       $('.pageup').fadeOut();
     }
   });
-  $('a[href=#top]').click(function () {
+  $('a[href="#top"]').click(function () {
     const _href = $(this).attr('href');
     $('html, body').animate({ scrollTop: $(_href).offset().top + 'px' });
     return false;

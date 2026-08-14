@@ -1,1 +1,1 @@
-https://dmytrolukachyna.pp.ua/projects/pet/sparcle/
+https://sparcle.dmytrolukachyna.com/
